@@ -52,7 +52,27 @@ transition: 1s;
 
 /* esercizio 6 */
 
-
 .ex-6-img:hover{
     filter: grayscale(100%);
 }
+
+/* esercizio 7 */
+
+.ex-7-img{
+    transition: 2s;
+}
+.ex-7-img:hover{
+    filter: sepia(0.8) grayscale(0.5);
+}
+
+/* esercizio 8 */
+
+.ex-8-img{
+transition: 2s;
+}
+
+.ex-8-img:hover{
+    border-radius: 20px;
+    filter: grayscale(0.6) sepia(0.6);
+}
+
